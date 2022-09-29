@@ -1,0 +1,49 @@
+{
+  "taxes": [
+    {
+      "id": "1",
+      "name": "Tax season 2020",
+      "year": "2020",
+      "active": true,
+      "inputFields": [
+        {
+          "id": "name",
+          "label": "Name",
+          "placeholder": "Your first name",
+          "type": "text",
+          "maxLength": 20
+        },
+        {
+          "id": "surname",
+          "label": "Surname",
+          "placeholder": "Your last name",
+          "type": "text",
+          "maxLength": 40
+        },
+        {
+          "id": "age",
+          "label": "Age",
+          "placeholder": "Your age",
+          "type": "number"
+        },
+        {
+          "id": "picture",
+          "label": "Picture",
+          "type": "picture"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Tax season 2019",
+      "year": "2019",
+      "active": false
+    },
+    {
+      "id": "3",
+      "name": "Tax season 2018",
+      "year": "2018",
+      "active": false
+    }
+  ]
+}
